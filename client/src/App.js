@@ -19,7 +19,7 @@ import MyFees from './pages/MyFees';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/StudentHUB">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route
